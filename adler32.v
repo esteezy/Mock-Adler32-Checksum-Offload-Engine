@@ -36,9 +36,13 @@ begin
 		A = A + data;
 		B = B + A;
 		if(A > 65521)
+		begin
 			A = A % 65535;
+		end
 		if(B > 65521)
+		begin
 			B = B % 65535;
+		end
 
 	end
 
